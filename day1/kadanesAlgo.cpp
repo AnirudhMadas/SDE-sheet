@@ -4,7 +4,7 @@ using namespace std;
 class Solution {
 public:
     //Function to find maximum sum of subarrays
-    int maxSubArray(vector<int>& nums) {
+    int maxSubArray1(vector<int>& nums) {
         
         /* Initialize maximum sum with 
         the smallest possible integer*/
@@ -37,7 +37,7 @@ public:
     }
 
      // Function to find maximum sum of subarrays
-    int maxSubArray(vector<int>& nums) {
+    int maxSubArray2(vector<int>& nums) {
         
         /* Initialize maximum sum with
         the smallest possible integer*/
@@ -69,7 +69,7 @@ public:
     }
 
      // Function to find maximum sum of subarrays
-    int maxSubArray(vector<int>& nums) {
+    int maxSubArray3(vector<int>& nums) {
         
         // maximum sum
         long long maxi = LLONG_MIN; 
@@ -105,7 +105,7 @@ int main() {
     //create an instance of Solution class
     Solution sol;
     
-    int maxSum = sol.maxSubArray(arr);
+    int maxSum = sol.maxSubArray3(arr);
     
     //Print the max subarray sum
     cout << "The maximum subarray sum is: " << maxSum << endl;
